@@ -1,4 +1,4 @@
-From 11000bfe64c56bb025773f35cf96eca514061d83 Mon Sep 17 00:00:00 2001
+From e0ccde6d1bb4c00f512d42a675794612b221fb49 Mon Sep 17 00:00:00 2001
 From: Ray Donnelly <mingw.android@gmail.com>
 Date: Tue, 2 Jan 2018 15:45:22 +0000
 Subject: [PATCH 05/17] Win32: Prevent conversion of R_ARCH to abs Windows path
@@ -8,7 +8,7 @@ Subject: [PATCH 05/17] Win32: Prevent conversion of R_ARCH to abs Windows path
  1 file changed, 28 insertions(+)
 
 diff --git a/src/main/main.c b/src/main/main.c
-index ae35b6dd0f..2550f44df8 100644
+index ae35b6d..2550f44 100644
 --- a/src/main/main.c
 +++ b/src/main/main.c
 @@ -793,6 +793,34 @@ void setup_Rmainloop(void)
@@ -47,5 +47,5 @@ index ae35b6dd0f..2550f44df8 100644
  	char Rarch[30];
  	strcpy(Rarch, "R_ARCH=/");
 -- 
-2.18.0
+2.19.1
 

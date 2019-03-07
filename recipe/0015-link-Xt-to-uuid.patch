@@ -1,4 +1,4 @@
-From daec22564e7132a279e96fcd22d41e1f40d21a6f Mon Sep 17 00:00:00 2001
+From 2802e1b9c8b8d895223d3800157d60ade997b0e7 Mon Sep 17 00:00:00 2001
 From: Ray Donnelly <mingw.android@gmail.com>
 Date: Tue, 2 Oct 2018 10:55:37 +0100
 Subject: [PATCH 15/17] link Xt to uuid
@@ -8,7 +8,7 @@ Subject: [PATCH 15/17] link Xt to uuid
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/m4/R.m4 b/m4/R.m4
-index d3bf508b36..c66ef3489b 100644
+index 7960795..c10d9ca 100644
 --- a/m4/R.m4
 +++ b/m4/R.m4
 @@ -1719,7 +1719,7 @@ if test -z "${no_x}"; then
@@ -30,5 +30,5 @@ index d3bf508b36..c66ef3489b 100644
    if test "x${with_x}" != "xno"; then
      AC_MSG_ERROR(
 -- 
-2.18.0
+2.19.1
 
